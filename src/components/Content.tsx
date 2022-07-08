@@ -53,7 +53,7 @@ function Content() {
                 style={{background:'linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(24,9,83,1) 25%, rgba(24,6,93,1) 50%, rgba(24,9,83,1) 75%, rgba(0,0,0,1) 100%)'}}
             >
                 <div className="flex flex-col items-center justify-center py-5 px-5">
-                    <img className='w-[310px] rounded-full border-4' src='../../assets/perfil.jpg' alt="" />
+                    <img className='w-[310px] rounded-full border-4' src='https://hitalohauan.netlify.app/assets/perfil.jpg' alt="" />
                     <Typography variant="h4" className="text-white uppercase pt-4">hitalo hauan</Typography>
                     <Typography className="text-white nowrap whitespace-nowrap">20 anos, Atualmente no Mato Grosso</Typography>
                 </div>
