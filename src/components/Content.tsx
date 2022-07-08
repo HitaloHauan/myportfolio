@@ -60,7 +60,7 @@ function Content() {
 
                 <div className="flex items-center flex-wrap justify-center px-5 py-5">
                     <img className="h-14" src="./src/assets/left.png" alt="" />
-                    <Typography variant="h6" className="text-white max-w-[700px] text-justify px-4 py-4">Desenvolvedor Web Júnior com experiência de 9 meses de prestação de serviços,
+                    <Typography variant="h6" className="text-white max-w-[700px]px-4 py-4">Desenvolvedor Web Júnior com experiência de 9 meses de prestação de serviços,
                      aproximadamente dois anos de estudo em programação e alguns projetos pessoais desenvolvidos.
                     Tenho atualmente meu foco de estudo voltado para o React Js e criação de interfaces e funcionalidades no Front-End. Aberto a propostas e oportunidades!
                     </Typography>
