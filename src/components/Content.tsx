@@ -53,18 +53,19 @@ function Content() {
                 style={{background:'linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(24,9,83,1) 25%, rgba(24,6,93,1) 50%, rgba(24,9,83,1) 75%, rgba(0,0,0,1) 100%)'}}
             >
                 <div className="flex flex-col items-center justify-center py-5 px-5">
-                    <img className='w-[310px] rounded-full border-4' src='https://hitalohauan.netlify.app/src/assets/perfil.jpg' alt="" />
+                    <img className='w-[310px] rounded-full border-4' src='https://thumbs2.imgbox.com/15/72/5JoO9WWu_t.jpg' alt="" />
                     <Typography variant="h4" className="text-white uppercase pt-4">hitalo hauan</Typography>
                     <Typography className="text-white nowrap whitespace-nowrap">20 anos, Atualmente no Mato Grosso</Typography>
                 </div>
 
                 <div className="flex items-center flex-wrap justify-center px-5 py-5">
-                    <img className="h-14" src="https://hitalohauan.netlify.app//src/assets/left.png" alt="" />
+                    <p className="text-white font-bold text-[100px]">&lt;</p>
                     <p  className="text-white text-md max-w-[700px] text-justify px-4 py-4">Desenvolvedor Web Júnior com experiência de 9 meses de prestação de serviços,
                      aproximadamente dois anos de estudo em programação e alguns projetos pessoais desenvolvidos.
                     Tenho atualmente meu foco de estudo voltado para o React Js e criação de interfaces e funcionalidades no Front-End. Aberto a propostas e oportunidades!
                     </p>
-                    <img className="h-20" src="./src/assets/right.svg" alt="" />
+                    <p className="text-white font-bold text-[100px]">/&gt;</p>
+                    
                 </div>
             </div>
 
@@ -74,29 +75,29 @@ function Content() {
                <div className="flex flex-wrap justify-center pb-10">
                     <div className="flex py-5 flex-wrap justify-center">
                         <div className="flex flex-col justfy-center items-center">
-                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://hitalohauan.netlify.app/src/assets/tecs/html.svg" alt="html" />
+                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://thumbs2.imgbox.com/c2/db/gXyKqZOr_t.png" alt="html" />
                             <span className="text-white cursor-default">HTML</span>
                         </div>
                         <div className="flex flex-col justfy-center items-center">
-                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://hitalohauan.netlify.app/src/assets/tecs/css.svg" alt="css" />
+                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://thumbs2.imgbox.com/d2/2f/T2Zm7nBr_t.png" alt="css" />
                             <span className="text-white cursor-default">CSS</span>
                         </div>
                         <div className="flex flex-col justfy-center items-center">
-                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://hitalohauan.netlify.app/src/assets/tecs/js.svg" alt="js" />
+                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://thumbs2.imgbox.com/22/bc/bclEIczu_t.png" alt="js" />
                             <span className="text-white cursor-default">JavaScript</span>
                         </div>
                     </div>
                     <div className="flex py-5 flex-wrap justify-center">
                         <div className="flex flex-col justfy-center items-center">
-                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://hitalohauan.netlify.app/src/assets/tecs/react.svg" alt="react" />
+                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://thumbs2.imgbox.com/c0/97/S4WTGlSh_t.png" alt="react" />
                             <span className="text-white cursor-default">ReactJs</span>
                         </div>
                         <div className="flex flex-col justfy-center items-center">
-                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://hitalohauan.netlify.app/src/assets/tecs/node.svg" alt="nodejs" />
+                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://thumbs2.imgbox.com/56/92/NW7d5DJ1_t.png" alt="nodejs" />
                             <span className="text-white cursor-default">NodeJs</span>
                         </div>
                         <div className="flex flex-col justfy-center items-center">
-                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://hitalohauan.netlify.app/src/assets/tecs/git.svg" alt="git" />
+                            <img className="w-20 h-20 mx-4 my-4 hover:w-24 hover:my-0 hover:h-24 transition-[0.6s]" src="https://thumbs2.imgbox.com/f5/fe/1ppiNpuS_t.png" alt="git" />
                             <span className="text-white cursor-default">GIT</span>
                         </div>
                     </div>
@@ -138,7 +139,7 @@ function Content() {
 
                 <div className="flex justify-center items-center flex-wrap">
                     {/* projeto 1 */}
-                    <Button onClick={handleOpen}><img className="w-[300px] rounded-[10px] hover:opacity-80" src="https://hitalohauan.netlify.app/src/assets/project1.jpg" alt="" /></Button>
+                    <Button onClick={handleOpen}><img className="w-[300px] rounded-[10px] hover:opacity-80" src="https://thumbs2.imgbox.com/f3/d1/PKALZJtu_t.jpg" alt="" /></Button>
                     <Modal
                         open={open}
                         onClose={handleClose}
@@ -159,7 +160,7 @@ function Content() {
                             >
                                 <Close />
                             </IconButton>
-                            <img className="w-[362px] rounded-[10px] mt-10" src="https://hitalohauan.netlify.app/src/assets/project1.jpg" alt="" />
+                            <img className="w-[362px] rounded-[10px] mt-10" src="https://thumbs2.imgbox.com/f3/d1/PKALZJtu_t.jpg" alt="" />
                             <Typography id="modal-modal-description" className="text-white px-10 pt-5">
                             O projeto visa exercitar meus conhecimentos em React, e funciona a partir dos dados recebidos de solicitações feitas à API pública da Riot Games, 
                             do game League of Legends. A partir do apelido do jogador podemos requisitar a api dados de qualquer conta no jogo, como por exemplo:<br/>
@@ -176,7 +177,7 @@ function Content() {
 
                     {/* projeto 2 */}
 
-                    <Button onClick={handleOpen1}><img className="w-[300px] h-[300px] rounded-[10px] hover:opacity-80" src="https://hitalohauan.netlify.app/src/assets/project2.png" alt="" /></Button>
+                    <Button onClick={handleOpen1}><img className="w-[300px] h-[300px] rounded-[10px] hover:opacity-80" src="https://thumbs2.imgbox.com/2a/59/PEPao1F5_t.png" alt="" /></Button>
                     <Modal
                         open={open1}
                         onClose={handleClose1}
@@ -197,7 +198,7 @@ function Content() {
                             >
                                 <Close />
                             </IconButton>
-                            <img className="w-[362px] rounded-[10px] mt-10" src="https://hitalohauan.netlify.app/src/assets/project2.png" alt="" />
+                            <img className="w-[362px] rounded-[10px] mt-10" src="https://thumbs2.imgbox.com/2a/59/PEPao1F5_t.png" alt="" />
                             <Typography id="modal-modal-description" className="text-white px-10 pt-5">
                             O projeto foi desenvolvido na semana do IgniteLab, elaborado pela ROCKETSEAT, ultilizando ferramentas como ReactJs, 
                             TypeScript, TailwindCss, Vite e com os dados extraidos de uma api desenvolvida em um headless Cms (GraphCMS) em GraphQL
@@ -211,7 +212,7 @@ function Content() {
 
                     {/* projeto (em breve) */}
 
-                    <Button onClick={handleOpen2}><img className="w-[300px] rounded-[10px] hover:opacity-80" src="https://hitalohauan.netlify.app/src/assets/breve.png" alt="" /></Button>
+                    <Button onClick={handleOpen2}><img className="w-[300px] rounded-[10px] hover:opacity-80" src="https://thumbs2.imgbox.com/1f/04/63bVNkNT_t.png" alt="" /></Button>
                     <Modal
                         open={open2}
                         onClose={handleClose2}
@@ -233,7 +234,7 @@ function Content() {
                             >
                                 <Close />
                             </IconButton>
-                            <img className="w-[362px] rounded-[10px] mt-10" src="https://hitalohauan.netlify.app/src/assets/breve.png" alt="" />
+                            <img className="w-[362px] rounded-[10px] mt-10" src="https://thumbs2.imgbox.com/1f/04/63bVNkNT_t.png" alt="" />
                             <Typography id="modal-modal-description" className="text-white px-10 pt-5">
                             Projetos aparecerão por aqui em breve!
                             </Typography>
