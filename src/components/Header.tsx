@@ -32,7 +32,7 @@ function Header() {
             style={{background: 'linear-gradient(0deg, rgba(0,0,0,0.2049194677871149) 0%, rgba(0,0,0,0.6026785714285714) 30%, rgba(0,0,0,0.7987570028011204) 60%, rgba(0,0,0,1) 100%)'}}
         >
         
-            <img className="w-[100px] h-[50px]" src="./src/components/logo.svg" alt="logo" />
+            <img className="w-[100px] h-[50px] object-cover" src="https://thumbs2.imgbox.com/23/da/Vc5JldBP_t.png" alt="logo" />
 
             <Box sx={{  display: { xs: 'flex', md: 'none' } }}>
                 <IconButton
