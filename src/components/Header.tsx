@@ -28,7 +28,7 @@ function Header() {
     return (
         <header 
             id='header' 
-            className="w-full h-[72px] flex flex-row items-center justify-between border-b border-[#323238] fixed px-5"
+            className="w-full z-10 h-[72px] flex flex-row items-center justify-between border-b border-[#323238] fixed px-5"
             style={{background: 'linear-gradient(0deg, rgba(0,0,0,0.2049194677871149) 0%, rgba(0,0,0,0.6026785714285714) 30%, rgba(0,0,0,0.7987570028011204) 60%, rgba(0,0,0,1) 100%)'}}
         >
         
@@ -59,8 +59,8 @@ function Header() {
                         display: { xs: 'block', md: 'none' },
                     }}
                     >
-                    <MenuItem onClick={handleCloseNavMenu} sx={{padding: 0, margin: 0}}>
-                        <nav id="navbar" className=" uppercase text-lg">
+                    <MenuItem onClick={handleCloseNavMenu} className='z-20'>
+                        <nav id="navbar" className="flex flex-col uppercase text-lg">
                             <a className="px-2 text-black font-medium hover:text-blue-700" href="#sobre">sobre</a>
                             <a className="px-2 text-black font-medium hover:text-blue-700" href="#tecs">tecs</a>
                             <a className="px-2 text-black font-medium hover:text-blue-700" href="#experiencia">experiência</a>
