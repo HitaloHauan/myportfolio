@@ -9,7 +9,7 @@ function Footer() {
 
             <div className="flex justify-start flex-wrap">
                 <div className="flex flex-col justify-center items-start">
-                    <a href="https://wa.me/5566996758254?text=Olá%20Hitalo,%20Gostaria%20de%20fazer%20uma%20à%20proposta!" target="_blank">
+                    <a href="https://wa.me/5566996758254?text=Olá%20Hitalo,%20Gostaria%20de%20fazer%20uma%20proposta!" target="_blank">
                         <IconButton className="flex justify-center items-center p-1">
                             <WhatsApp className="text-white" sx={{ fontSize: 30, m: '0 10px 0 10px'}} />
                             <Typography className='text-white'>(66) 9 9675-8254</Typography>
