@@ -170,7 +170,7 @@ function Content() {
                             </Typography>
                            
                             <div className="p-1 w-40 mt-2 flex rounded-md items-center justify-center text-center border-2 border-blue-600 ">
-                                <a className="text-white uppercase w-40 hover:text-blue-400" href="">ver repositório</a>
+                                <a className="text-white uppercase w-40 hover:text-blue-400" target="_blank" href="https://github.com/HitaloHauan/LeagueSummoner">ver repositório</a>
                             </div>
                         </Box>
                     </Modal>
